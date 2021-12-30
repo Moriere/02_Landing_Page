@@ -5,6 +5,33 @@ body {
     margin: 0px;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    padding: 8px 36px 8px 36px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+video   {
+    height: inherit;
+    width: 500px;
+    flex: 1 1 auto;
+}
+
 .hero {
     height: 500px;
     background-color: #1F2937;
@@ -27,12 +54,6 @@ body {
     font-weight: bolder;
 }
 
-.links {
-    display: flex;
-    gap: 16px;
-    font-size: 400;
-}
-
 .hero-content {
     display: flex;
     justify-content: center;
@@ -41,51 +62,92 @@ body {
     gap: 56px;
 }
 
-.left-items {
+.hero .left-items {
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
 }
 
-.main-text {
+.hero .main-text {
     font-size: 48px;
     font-weight: bolder;
     margin-bottom: 16px;
 }
 
-.secondary-text {
+.hero .secondary-text {
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 16px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-a {
-    text-decoration: none;
-    color: #F9FAF8;
-}
-
-button {
-    border: none;
-    border-radius: 8px;
-    background: #3882F6;
-    padding: 8px 36px 8px 36px;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: inherit;
-}
-
-.signup-btn button{
+.hero button{
     color: white;
 }
 
-video   {
-    height: inherit;
-    width: 500px;
-    flex: 1 1 auto;
+.links {
+    display: flex;
+    gap: 16px;
+    font-size: 400;
+}
+
+.content    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.destinations-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 54px;
+    padding: 54px;
+}
+
+.destinations   {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 54px
+}
+
+.dest-1,
+.dest-2,
+.dest-3,
+.dest-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dest-square    {
+    /* border: 3px solid #3882F6;*/
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+    margin-bottom: 8px;
+}
+
+.destinations img   {
+    width: inherit;
+    height: auto;
+    flex: 1;
+}
+
+.text-below-img {
+    width: 150px;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+}
+
+h1  {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    flex: none;
+    text-align: center;
+    margin: 0px;
 }
