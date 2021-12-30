@@ -27,19 +27,12 @@ button {
     font-family: inherit;
 }
 
-video   {
-    height: inherit;
-    width: 500px;
-    flex: 1 1 auto;
-}
-
 .hero {
-    height: 500px;
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    padding: 0px 400px;
+    padding: 0px 300px;
 }
 
 .header {
@@ -47,7 +40,7 @@ video   {
     align-items: center;
     display: flex;
     padding-top: 16px;
-    flex: none;
+    flex: 1;
 }
 
 .header .logo {
@@ -55,18 +48,24 @@ video   {
     font-weight: bolder;
 }
 
+.links {
+    display: flex;
+    gap: 16px;
+    font-size: 400;
+}
+
 .hero-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
     gap: 56px;
+    padding: 90px 0px;
 }
 
 .hero .left-items {
     display: flex;
     flex-direction: column;
-    flex: 1 1 0;
+    flex: 1 1 auto;
 }
 
 .hero .main-text {
@@ -85,10 +84,15 @@ video   {
     color: white;
 }
 
-.links {
+.video  {
     display: flex;
-    gap: 16px;
-    font-size: 400;
+    justify-content: end;
+}
+
+video   {
+    height: auto;
+    width: 50%;
+    flex: 1;
 }
 
 .content    {
@@ -155,7 +159,7 @@ h1  {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 120px 600px;
+    padding: 120px 400px;
 }
 .quote  {
     font-size: 36px;
@@ -185,6 +189,7 @@ h1  {
     background-color: #3882F6;
     margin: 120px 200px;
     padding: 50px 120px;
+    gap: 200px;
 }
 
 .call-action    {
@@ -192,7 +197,6 @@ h1  {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 750px;
 }
 
 .action-container .upper-text   {
@@ -214,8 +218,8 @@ h1  {
 .footer {
     background-color: #1F2937;
     color: white;
-    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 50px 0px;
 }
