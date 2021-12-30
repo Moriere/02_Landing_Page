@@ -209,3 +209,12 @@ h1  {
     border-radius: 10px;
     color: white;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
