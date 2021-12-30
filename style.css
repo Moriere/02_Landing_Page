@@ -91,16 +91,10 @@ video   {
 }
 
 .content    {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .destinations-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 54px;
     padding: 54px;
 }
@@ -112,6 +106,8 @@ video   {
     gap: 54px
 }
 
+.content,
+.destinations-container,
 .dest-1,
 .dest-2,
 .dest-3,
