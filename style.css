@@ -33,6 +33,7 @@ button {
     display: flex;
     flex-direction: column;
     padding: 0px 300px;
+    flex-wrap: wrap;
 }
 
 .header {
@@ -41,6 +42,7 @@ button {
     display: flex;
     padding-top: 16px;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 .header .logo {
@@ -52,20 +54,20 @@ button {
     display: flex;
     gap: 16px;
     font-size: 400;
+    flex-wrap: wrap;
 }
 
 .hero-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 56px;
+    gap: 60px;
     padding: 90px 0px;
 }
 
 .hero .left-items {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
 }
 
 .hero .main-text {
@@ -87,31 +89,29 @@ button {
 .video  {
     display: flex;
     justify-content: end;
+    /*flex: 1 0 0; */
 }
 
 video   {
     height: auto;
-    width: 50%;
-    flex: 1;
-}
-
-.content    {
-    justify-content: center;
+    max-width: 80%;
 }
 
 .destinations-container {
     gap: 54px;
     padding: 54px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .destinations   {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
-    gap: 54px
+    gap: 54px;
+    flex-wrap: wrap;
 }
 
-.content,
 .destinations-container,
 .dest-1,
 .dest-2,
@@ -153,7 +153,12 @@ h1  {
     margin: 0px;
 }
 
-.quote-container {
+.quote  {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 24px;
+    flex: 0 0 auto;
     display: flex;
     background-color: #E5E7EB;
     flex-direction: column;
@@ -161,17 +166,10 @@ h1  {
     justify-content: center;
     padding: 120px 400px;
 }
-.quote  {
-    font-size: 36px;
-    font-weight: 100;
-    font-style: italic;
-    margin-bottom: 24px;
-    flex: 0 0 auto;
-}
 
-.author {
+.quote .author {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 900;
     align-self: flex-end;
 }
 
@@ -181,6 +179,8 @@ h1  {
 }
 
 .action-container   {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     color: white;
