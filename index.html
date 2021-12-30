@@ -6,51 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
-    <div class="header">
-        <div class="logo"><a href=./index.html>Discover</a></div>
-        <ul class="links">
-            <li><a href="https://www.google.com">Destinations</a></li>
-            <li><a href="https://www.google.com">Price plans</a></li>
-            <li><a href="https://www.google.com">Blog</a></li>
-        </ul>
+     <div class="hero">
+        <div class="header">
+            <div class="logo"><a href=./index.html>Discover</a></div>
+
+            <ul class="links">
+                <li><a href="https://www.google.com">Destinations</a></li>
+                <li><a href="https://www.google.com">Price plans</a></li>
+                <li><a href="https://www.google.com">Blog</a></li>
+            </ul>
+        </div>
+            
+        <div class="hero-content">
+            <div class="left-items">
+                <div class="main-text">Explore the world with us!</div>
+                <div class="secondary-text">The world at your hands with Discover. Multiple curated and fantastic destinations for you to get the most of them. What are you waiting for?</div>
+                <div class="signup-btn"><button>Sign up</button></div>
+            </div>
+
+            <div class="video">
+                <video autoplay muted loop>
+                    <source src="./videos/runner.mp4" type="video/mp4"> 
+                </video>
+            </div>
+        </div>
     </div>
 
     <div class="content">
-        <div class="top-bar">
-            <div>
-                <div>Explore the world!</div>
-                <div>The world at your hands with Discover. Multiple curated and fantastic destinations for you to get the most of them. What are you waiting for?</div>
-            </div>
-
-            <div class="videos">
-                <video width="320" height="240" autoplay muted loop>
-                    <source src="./videos/pexels-yaroslav-shuraev-8969048.mp4" type="video/mp4"> 
-
-                </video>
-            </div>
-            
-        </div>
-        
-        <div class="destinations">
+        <div class="destinations-container">
             <div>Featured destinations</div>
-            <div class="dest-1">
-                <img class="imag" src="./images/" alt="destination 1"> </img>
-                Description text
-            </div>
-            <div class="dest-2">
-                <img class="imag" src="./images/" alt="destination 2"> </img>
-                Description text
-            </div>
-            <div class="dest-3">
-                <img class="imag" src="./images/" alt="destination 3"> </img>
-                Description text
-            </div>
-            <div class="dest-4">
-                <img class="imag" src="./images/" alt="destination 4"> </img>
-                Description text
+            <div class="destinations">
+                <div class="dest-1">
+                    <img class="imag" src="./images/grenade.jpg" alt="grenade"> </img>
+                    Andalusia and Alhambra are witnesses of the cultural achievements of two clashing cultures.
+                </div>
+                <div class="dest-2">
+                    <img class="imag" src="./images/iceland.jpg" alt="iceland"> </img>
+                    Walking and hiking in Iceland's diverse landscapes is a fantastic way to experience the island's unique nature.
+                </div>
+                <div class="dest-3">
+                    <img class="imag" src="./images/japan.jpg" alt="japan"> </img>
+                    Explore the temples and curious gadgets in the midst of Japan's milenary roots.
+                </div>
+                <div class="dest-4">
+                    <img class="imag" src="./images/turkey.jpg" alt="turkey"> </img>
+                    Holding two continents together, Turkey is the place to go.
+                </div>
             </div>
         </div>
 
@@ -59,8 +66,13 @@
             - Luke James.
         </div>
 
-        <div class="action">
+        <div class="action-container">
+            <div class="call-action">
+                <div class="upper-text">Call to action! It's time!</div>
+                <div class="lower-text">Sign up and open the world with Discover.</div>
+            </div>
 
+            <button class="">Sign up</button>
         </div>
     </div>
 

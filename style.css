@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.hero {
+    height: 500px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 400px;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 16px;
+    flex: none;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    font-size: 400;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 56px;
+}
+
+.left-items {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    padding: 8px 36px 8px 36px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.signup-btn button{
+    color: white;
+}
+
+video   {
+    height: inherit;
+    width: 500px;
+    flex: 1 1 auto;
+}
